@@ -31,14 +31,14 @@ export function AudioCircuit() {
         <div className="flex items-end justify-between gap-6 flex-wrap mb-8">
           <div>
             <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-signal mb-2">
-              §03 · audio · speaker circuit
+              §04 · audio · speaker circuit
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-ink-primary">
               Current you can hear.
             </h2>
             <p className="mt-3 max-w-2xl text-ink-secondary">
               An AC source, a coupling capacitor, a series resistor, and a
-              speaker. The oscilloscope plots the voltage across the speaker —
+              speaker. The oscilloscope plots the voltage across the speaker:
               the same signal that drives the cone, that pushes the air, that
               makes a tone.
             </p>

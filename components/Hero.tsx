@@ -56,7 +56,7 @@ export function Hero() {
 
         <p className="mt-6 max-w-xl text-base sm:text-lg leading-relaxed text-ink-secondary">
           Ohmify is an interactive lab for understanding how electricity moves.
-          Drop in a resistor, raise the voltage, watch the current flow — every
+          Drop in a resistor, raise the voltage, watch the current flow. Every
           law of the circuit, visualized in real time.
         </p>
 

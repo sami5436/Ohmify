@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Glossary />
       <CircuitLab />
       <Concepts />
       <AudioCircuit />
-      <Glossary />
       <SiteFooter />
     </>
   );

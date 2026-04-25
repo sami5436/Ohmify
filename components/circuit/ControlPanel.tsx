@@ -58,7 +58,7 @@ export function ControlPanel({
       <div className="border-t border-line-subtle px-4 py-3">
         <p className="font-mono text-[10.5px] tabular text-ink-muted">
           <span className="text-ink-secondary">// </span>
-          drag the sliders — the canvas, current arrow, and readouts update in
+          drag the sliders. the canvas, current arrow, and readouts update in
           real time.
         </p>
       </div>

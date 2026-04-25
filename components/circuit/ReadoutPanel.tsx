@@ -29,7 +29,7 @@ export function ReadoutPanel({ metrics, load }: ReadoutPanelProps) {
           value={formatNumber(voltage, 1)}
           color="volt"
           formula="ε_source"
-          description="The push driving electrons through the loop. Set by the source — every other quantity bends to it."
+          description="The push driving electrons through the loop. Set by the source; every other quantity bends to it."
         />
         <Readout
           label="Current"
@@ -38,7 +38,7 @@ export function ReadoutPanel({ metrics, load }: ReadoutPanelProps) {
           value={formatNumber(current, 2)}
           color="signal"
           formula="I = V / R"
-          description="The rate of charge flow. Same value at every point in a series loop — what goes around comes around."
+          description="The rate of charge flow. Same value at every point in a series loop. What goes around comes around."
         />
         <Readout
           label="Resistance"
@@ -47,7 +47,7 @@ export function ReadoutPanel({ metrics, load }: ReadoutPanelProps) {
           value={formatNumber(resistance, 1)}
           color="ink"
           formula="opposes I"
-          description="How much the path resists charge flow. Doubling R halves the current — Ohm's law in one move."
+          description="How much the path resists charge flow. Doubling R halves the current: Ohm's law in one move."
         />
         <Readout
           label="Power"
