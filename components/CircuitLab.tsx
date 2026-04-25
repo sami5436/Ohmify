@@ -39,13 +39,13 @@ export function CircuitLab() {
         <div className="flex items-end justify-between gap-6 flex-wrap mb-8">
           <div>
             <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-signal mb-2">
-              §01 · interactive lab
+              §02 · interactive lab
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-ink-primary">
               Build a circuit. Watch it breathe.
             </h2>
             <p className="mt-3 max-w-2xl text-ink-secondary">
-              A live series loop — adjust the source and resistance, swap the
+              A live series loop. Adjust the source and resistance, swap the
               load, and the canvas, current arrow, and readouts respond in real
               time. Every number is computed from Ohm's law, no smoke.
             </p>

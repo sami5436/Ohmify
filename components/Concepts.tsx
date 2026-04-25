@@ -22,8 +22,8 @@ const CONCEPTS: Concept[] = [
     symbol: "V",
     formula: "V = W / Q",
     tagline: "Pressure difference across two points.",
-    body: "Voltage is the energy each unit of charge picks up — the push that makes electrons move. No difference, no flow.",
-    metaphor: "Think water tower height — taller tower, more push.",
+    body: "Voltage is the energy each unit of charge picks up: the push that makes electrons move. No difference, no flow.",
+    metaphor: "Think water tower height. Taller tower, more push.",
     Visual: VoltageVisual,
   },
   {
@@ -33,8 +33,8 @@ const CONCEPTS: Concept[] = [
     symbol: "I",
     formula: "I = Q / t",
     tagline: "Rate of charge moving past a point.",
-    body: "Current is how many charges flow per second. In a series loop, the same current passes through every component — what enters one end exits the other.",
-    metaphor: "Pipe flow rate — gallons per second past a sensor.",
+    body: "Current is how many charges flow per second. In a series loop, the same current passes through every component. What enters one end exits the other.",
+    metaphor: "Pipe flow rate: gallons per second past a sensor.",
     Visual: CurrentVisual,
   },
   {
@@ -45,7 +45,7 @@ const CONCEPTS: Concept[] = [
     formula: "R = V / I",
     tagline: "Opposition to charge flow.",
     body: "Higher resistance, less current for the same voltage. Resistance turns electrical energy into heat and is the load that defines how a circuit behaves.",
-    metaphor: "Pipe diameter — narrower pipe, slower flow.",
+    metaphor: "Pipe diameter: narrower pipe, slower flow.",
     Visual: ResistanceVisual,
   },
   {
@@ -55,8 +55,8 @@ const CONCEPTS: Concept[] = [
     symbol: "→",
     formula: "+ → load → −",
     tagline: "Conventional current's path through the loop.",
-    body: "Conventional current flows from the source's positive terminal, through every component, and returns to the negative. Electrons drift the other way — the direction is convention, not physics.",
-    metaphor: "A relay race — the baton always returns to start.",
+    body: "Conventional current flows from the source's positive terminal, through every component, and returns to the negative. Electrons drift the other way. The direction is convention, not physics.",
+    metaphor: "A relay race. The baton always returns to start.",
     Visual: SignalFlowVisual,
   },
   {
@@ -66,7 +66,7 @@ const CONCEPTS: Concept[] = [
     symbol: "P",
     formula: "P = V · I",
     tagline: "Energy delivered per second.",
-    body: "Power is how fast a component converts electrical energy into something else — heat in a resistor, motion in a motor, sound in a speaker.",
+    body: "Power is how fast a component converts electrical energy into something else: heat in a resistor, motion in a motor, sound in a speaker.",
     metaphor: "How hard the engine is working, not how far it's gone.",
     Visual: PowerVisual,
   },
@@ -82,14 +82,14 @@ export function Concepts() {
         <div className="flex items-end justify-between gap-6 flex-wrap mb-10">
           <div>
             <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-signal mb-2">
-              §02 · concepts
+              §03 · concepts
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-ink-primary">
               Five quantities. One loop.
             </h2>
             <p className="mt-3 max-w-2xl text-ink-secondary">
               Every electrical phenomenon in this lab reduces to a relationship
-              between five things — what the source provides, what the load
+              between five things: what the source provides, what the load
               opposes, and what flows in between.
             </p>
           </div>
@@ -116,7 +116,7 @@ function ConceptCard({ concept, index }: { concept: Concept; index: number }) {
       <header className="flex items-start justify-between">
         <div>
           <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-muted">
-            §02.{String(index + 1).padStart(2, "0")} · {concept.unit}
+            §03.{String(index + 1).padStart(2, "0")} · {concept.unit}
           </p>
           <h3 className="mt-1 text-xl font-semibold tracking-tight text-ink-primary">
             {concept.title}
@@ -169,7 +169,7 @@ function FormulaCard() {
       </svg>
       <div className="relative">
         <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-muted">
-          §02.06 · the law
+          §03.06 · the law
         </p>
         <h3 className="mt-1 text-xl font-semibold tracking-tight text-ink-primary">
           Ohm's triangle
